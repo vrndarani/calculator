@@ -19,7 +19,7 @@ public class CalculatorController {
 
     @GetMapping
     public String greetings (){
-        return "<h1>Welcome to calculator</h1>";
+        return "<h1>Welcome to calculator!</h1>";
     }
 
     @GetMapping("/plus")
